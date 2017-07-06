@@ -2,11 +2,11 @@
 const starWars7 = 'Star Wars: El Despertar de la Fuerza'
 const pgStarWars7 = 13
 
-const nameSacha = 'Sacha'
-let ageSacha = 26
+const nameRosario = 'Rosario'
+let ageRosario = 26
 
-const nameSanti = 'Santi'
-let ageSanti = 12
+const nameJun = 'Jun'
+let ageJun = 12
 
 function canWatchStarWars7(name, age, isWithAdult = false) {
   if (age >= pgStarWars7) {
@@ -20,5 +20,5 @@ function canWatchStarWars7(name, age, isWithAdult = false) {
   }
 }
 
-canWatchStarWars7(nameSacha, ageSacha)
-canWatchStarWars7(nameSanti, ageSanti, true)
+canWatchStarWars7(nameRosario, ageRosario)
+canWatchStarWars7(nameJun, ageJun, true)
