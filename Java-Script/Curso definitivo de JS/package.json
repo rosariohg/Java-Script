@@ -1,0 +1,11 @@
+{
+  "name": "debug",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "author": "rosariohg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
