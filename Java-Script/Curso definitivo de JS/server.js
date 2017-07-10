@@ -1,8 +1,11 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine','pug');
+
 app.get('/',function(req,res){
-	res.send('Hola debug');
+	res.render('index') //llama al mototr de vistas pug
+
 })
 
 app.listen(3000,function(err){
