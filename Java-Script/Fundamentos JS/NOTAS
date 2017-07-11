@@ -1,0 +1,12 @@
+
+- Metodo bind(): Es un método de todas las funciones, el cual nos devuelve una función para ser invocada en cualquier momento. Se caracteriza por permitirnos definir el scope-contexto y por permitir establecer previamente los parametros
+
+	const newFunction = fun.bind(contexto, primerParametro)// Establece el scope y el-los parametros de fun
+	
+	newFunction(segundoParametro) // Ejecuta fun pero con la caracteristica de que ya esta establecido el scope y los parametros. Igualmente nos permite enviarle más parametros a fun si es el caso
+
+- Métodos call() y apply(): A diferencia de bidn(), call() y apply() ejecutan la función “padre” instantaneamente. De igual forma nos permiten establecer el scope y los parametros con la pequeña diferencia de que apply, recibe los parametros en un array.
+
+fun.call(contexto, primerParametro, segundoParametro)//Ejecuta fun en el scope establecido y con los parametros enviados
+
+fun.apply(contexto, [primerParametro, segundoParametro)//Ejecuta fun en el scope establecido y con los parametros enviados en el array
