@@ -10,3 +10,9 @@
 fun.call(contexto, primerParametro, segundoParametro)//Ejecuta fun en el scope establecido y con los parametros enviados
 
 fun.apply(contexto, [primerParametro, segundoParametro)//Ejecuta fun en el scope establecido y con los parametros enviados en el array
+
+promesas -> ()
+-resolve
+-reject
+
+async - await -> se puede usar con las promesas
